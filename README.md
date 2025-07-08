@@ -22,7 +22,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills for Data Nerds](skill_demand_all_data_roles.png)
+![Visualization of Top Skills for Data Nerds](Images/skill_demand_all_data_roles.png)
 
 ### Insights
 
