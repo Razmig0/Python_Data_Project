@@ -48,7 +48,7 @@ plt.show()
 ```
 ### Results
 
-![Trending Top Skills for Data analysts in the US](Images\Trending_skills.png)*Bar graph visualizing the trending top skills for data analysts in the us in 2023.*
+![Trending Top Skills for Data analysts in the US](Images/Trending_skills.png)*Bar graph visualizing the trending top skills for data analysts in the us in 2023.*
 
 ### Insights
 
@@ -70,8 +70,7 @@ plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
 #### Results
-![Salary distributions of Data Jobs in the US]
-(Images\salary_boxplot.png)*Box plot visualizing the salary distribution for the top 6 data job titles.*
+![Salary distributions of Data Jobs in the US](Images/salary_boxplot.png)*Box plot visualizing the salary distribution for the top 6 data job titles.*
 #### Insights
 - There's a significant variation in salary images across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600k, indicating the high value placed on advanced data skills and experience in the industry.
 - Senior Data Engineer and Senior Sata Scientist roles show a considerable number of outliers on the higher end of the salary spectrum, suggesting that exceptional skills or circumstrances can lead to high pay in these roles. In contrast, Data Analyst roles demonstrate more consistency in salary, with fewer outliers.
@@ -89,7 +88,7 @@ plt.show()
 ```
 #### Results
 
-![The Highest Paid & Most In-Demmand Skills for Data Analysts in the US](Images\Highest_Paid_Skills_for_Data_Analyst_in_the_US.png) *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+![The Highest Paid & Most In-Demmand Skills for Data Analysts in the US](Images/Highest_Paid_Skills_for_Data_Analyst_in_the_US.png) *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 #### Insights
 - The top graph shows specialized technical skills Like `dplyr`,`Bitbucket`, and `Gitlab` are associated with higher salaries, some reaching up to $200K, suggesting that advanced technical proficiency can increase earning potential.
@@ -106,7 +105,7 @@ plt.scatter(df_DA_skills_high_demand['skill_percent'], df_DA_skills_high_demand[
 plt.show()
 ```
 #### Results
-![Most Optimal Skills for Data Analysts in the US](Images\Most_Optimal_Skills_for_Data_Analysis_in_the_US.png)*A scatter plot visualizing the most optimal skills (high paying & high deman) for data analysts in the US.*
+![Most Optimal Skills for Data Analysts in the US](Images/Most_Optimal_Skills_for_Data_Analysis_in_the_US.png)*A scatter plot visualizing the most optimal skills (high paying & high deman) for data analysts in the US.*
 #### Insights
 - The skill `Oracle` appears to have the highest median slary of nearly $97K, despite being less common in job postings. This suggests a high value placed on specialized database skills within the data analyst profession.
 - More commonly required skills like `Excel` and `SQL` have a large presence in job listings but lower median salaries compared to specialized skills like `python` and `Tableau`, which not only have higher salaries but are also moderately prevalent in job listings.
@@ -131,7 +130,7 @@ scatter = sns.scatterplot(
 plt.show()
 ```
 #### Results
-![Most Optimal skills for Data Analysts in the US in color](Images\Color_Most_optimal_Skills_for_Data_Analysts_in_the_US.png)*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with colour labels for technology.*
+![Most Optimal skills for Data Analysts in the US in color](Images/Color_Most_optimal_Skills_for_Data_Analysts_in_the_US.png)*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with colour labels for technology.*
 
 #### Insights
 - The scatter plot shows that most of the `programmng` skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
